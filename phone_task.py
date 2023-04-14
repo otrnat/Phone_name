@@ -15,8 +15,9 @@ list_of_phone = ["+380-269852650", "+380-721552059", "+380-4245980006",
  "+1-515942337", "+1-5352367900", "+1-5382385891", "+1-9569474824", "+1-504089617", 
  "+1-4120214271", "+1-6533554151"]
 
-matchs = list_of_phone.split("-")
+matchs = list_of_phone
 
 for i in matchs:
-    if i == "+380" :
-       print (f"{list_of_phone[i]} This is Ukraine phone number") 
+    print(i.split("-"))
+    # if i == "+380" :
+
